@@ -158,10 +158,11 @@ h4
     margin-bottom: 2px;
     font-weight: 500;
 }
-p1 div.percent
+.p1 div.percent
 {
     width: 350px; 
     border:solid 3px rgb(25, 150, 233);
     margin-left: 23%;
     border-radius: 30px;
+    
 }
