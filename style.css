@@ -6,7 +6,7 @@
 }
 body
 {
-    background-color: burlywood;
+    background-color:rgb(121, 117, 117);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background-color: rgba(240, 248, 255, 0.322);
+    background-color:rgb(233, 223, 226);
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -27,7 +27,7 @@ body
 .container .left_side
 {
     position: relative;
-    background-color:rgba(90, 88, 88, 0.952);
+    background-color:rgba(207, 50, 102, 0.699);
     padding: 40px;
 }
 .profileText
@@ -57,8 +57,8 @@ body
     object-fit: cover;
 }
 h2{
-    color:black;
-    font-size: 1.5em;
+    color:white;
+    font-size: 1.8em;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -69,20 +69,9 @@ span
 {
     font-size: 0.8em;
     font-weight: 300;
+    font-family: Times New Roman;
 }
-h3
-{
-    text-align:center;
-    color: black;
-    margin-top: 10px;
-    font-size: 30px;
-}
-h4 
-{
-    margin-top: 10px;
-    text-indent:23px;
-    font-size: 20px;
-}
+
 .contactInfo
 {
     padding-top: 10px;
@@ -90,12 +79,12 @@ h4
 .tittle
 {
     text-align: center;
-    color: black;
+    color: white;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 1px;
     margin-bottom: 15px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .contactInfo ul
 {
@@ -111,27 +100,35 @@ h4
 }
 .contactInfo ul li .icon
 {
-    display:block;
-    width: 30px;
-    font-size: 30px;
-    color: rgb(14, 98, 224);
+    display:inline-block;
+    width: 3  0px;
+    font-size: 18px;
+    color: rgb(3, 75, 184);
    
 }
 .contactInfo ul li span
 {
-    color: black;
-    font: weight 300px;;
-    margin-left: 30%;
+    color: white;
+    font-weight:500px;
 }
 .contactInfo ul li .text
 {
-    font-size: 20px;
+    font-size: 14px;
     margin-left: 5%;
 }
-.contactinfo
+.contactInfo
 {
     padding-top: 10px;
+} 
+.contactInfo ul 
+{
+    color: white;
+    font-size: 20px;
+    font-family: Times New Roman;
+    margin-bottom: 2px;
+    font-weight: 500;
 }
+
 .container .right_side
 {
     position: relative;
@@ -155,14 +152,29 @@ h4
 {
     font-size: 20px;
     font-family: Times New Roman;
-    margin-bottom: 2px;
-    font-weight: 500;
+    margin-bottom: 5px;
+    font-weight: 800;
+    letter-spacing: normal;
 }
-.p1 div.percent
+.per li
 {
-    width: 350px; 
-    border:solid 3px rgb(25, 150, 233);
-    margin-left: 23%;
-    border-radius: 30px;
-    
+    margin-bottom: 15px;
+    list-style: none;
+}
+.per h5
+{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.per h4
+{
+    font-family:Times New Roman;
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+.per h3
+{
+    font-family:Times New Roman;
+    font-size: 20px;
+    font-weight: 800;
 }
